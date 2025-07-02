@@ -244,9 +244,22 @@
 }
 
 @media screen and (max-width:600px) {
+.header-ul{
+    display: none;
+}
+.menu-icon{
+    display: block;
+}
 .header h3{
     text-align: center;
     align-items: center;
+    padding-left: 110px;
+}
+.h3-title{
+    font-size: 1.5rem;
+}
+.h1-title{
+    font-size: 2rem;
 }
 .section1{
     flex-direction: column-reverse;
@@ -255,11 +268,10 @@
 .s1c1{
     padding: 0;
 }
-.header-ul{
-    display: none;
-}
 .menu-icon{
-    display: block;
+    font-size: 25px;
+    padding-left: 30px; 
+    margin-top: 20px;
 }
 .sponspors{
     display: grid;
